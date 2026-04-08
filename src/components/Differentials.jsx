@@ -7,7 +7,7 @@ function Differentials() {
   return (
     <section className="py-20">
       <div className="container-shell">
-        <div className="grid gap-8 overflow-hidden rounded-[2rem] bg-brand-900 px-6 py-10 text-white shadow-soft lg:grid-cols-[0.95fr_1.05fr] lg:px-10">
+        <div className="grid gap-8 overflow-hidden rounded-[2rem] bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 px-6 py-10 text-white shadow-soft lg:grid-cols-[0.95fr_1.05fr] lg:px-10">
           <div className="reveal" data-reveal>
             <p className="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">
               Diferenciais

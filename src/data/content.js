@@ -27,9 +27,21 @@ export const heroContent = {
     'Na Amorzim Pet, cada atendimento é conduzido com sensibilidade, acolhimento e um ambiente pensado para fazer o pet se sentir seguro do começo ao fim.',
   badges: ['Ambiente aconchegante', 'Cuidado gentil', 'Atendimento humanizado'],
   featuredImages: [
-    { src: heroImage, alt: 'Pet da Amorzim Pet com lacinho após atendimento' },
-    { src: heroSideImage, alt: 'Pet com tosa caprichada em momento de descanso' },
-    { src: heroBottomImage, alt: 'Pet sendo apresentado com visual finalizado' },
+    {
+      src: heroImage,
+      alt: 'Pet da Amorzim Pet com lacinho após atendimento',
+      position: 'center 28%',
+    },
+    {
+      src: heroSideImage,
+      alt: 'Pet com tosa caprichada em momento de descanso',
+      position: 'center 32%',
+    },
+    {
+      src: heroBottomImage,
+      alt: 'Pet sendo apresentado com visual finalizado',
+      position: 'center 24%',
+    },
   ],
 }
 
@@ -137,30 +149,6 @@ export const differentials = [
 
 export const galleryImages = [
   {
-    src: heroImage,
-    alt: 'Pet com lacinho e acabamento delicado',
-  },
-  {
-    src: heroSideImage,
-    alt: 'Pet em pose suave após atendimento',
-  },
-  {
-    src: heroBottomImage,
-    alt: 'Pet com visual finalizado e expressão tranquila',
-  },
-  {
-    src: aboutImage,
-    alt: 'Pet em close mostrando o resultado do cuidado',
-  },
-  {
-    src: animalsImage,
-    alt: 'Pet em ambiente acolhedor e iluminado',
-  },
-  {
-    src: extrasImage,
-    alt: 'Pet com produção caprichada após banho e tosa',
-  },
-  {
     src: galleryImage1,
     alt: 'Pet da Amorzim Pet pronto para voltar para casa',
   },
@@ -191,7 +179,7 @@ export const testimonials = [
   },
   {
     name: 'Valdirene Souza',
-    pet: 'Tutora de um pet muito especial',
+    pet: 'Tutora do Rotam',
     text:
       'Quero registrar o quanto essa equipe é cuidadosa e paciente. Meu pet é muito difícil de lidar, e eles fizeram tudo no tempo dele, com calma e carinho. Nunca tivemos um atendimento com tamanho respeito do início ao fim. Parabéns a toda equipe. Ganharam meu coração.',
   },
