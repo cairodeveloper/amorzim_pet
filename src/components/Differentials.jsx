@@ -25,12 +25,12 @@ function Differentials() {
             {differentials.map((item, index) => (
               <div
                 key={item}
-                className="reveal flex items-start gap-4 rounded-[1.5rem] border border-white/10 bg-white/8 p-5 backdrop-blur-sm"
+                className="reveal flex items-start gap-4 rounded-[1.5rem] border border-white/10 bg-white/10 p-5 backdrop-blur-sm"
                 data-reveal
                 style={{ transitionDelay: `${index * 110}ms` }}
               >
                 <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-300 text-brand-950">
-                  ✓
+                  +
                 </div>
                 <p className="text-base leading-7 text-white/85">{item}</p>
               </div>

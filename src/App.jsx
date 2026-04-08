@@ -2,7 +2,10 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
+import ExtraServices from './components/ExtraServices'
+import Animals from './components/Animals'
 import Differentials from './components/Differentials'
+import VideoShowcase from './components/VideoShowcase'
 import Gallery from './components/Gallery'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
@@ -16,7 +19,10 @@ function App() {
         <Hero />
         <About />
         <Services />
+        <ExtraServices />
+        <Animals />
         <Differentials />
+        <VideoShowcase />
         <Gallery />
         <Testimonials />
         <Contact />
