@@ -2,7 +2,7 @@ import { brandAssets, instagramLink, whatsappLink } from '../data/content'
 
 function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/60 bg-white/75 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-brand-800/15 bg-white backdrop-blur-xl">
       <div className="container-shell flex items-center justify-between gap-4 py-4">
         <a href="#inicio" className="flex items-center gap-3">
           <img
@@ -44,7 +44,7 @@ function Navbar() {
             href={instagramLink}
             target="_blank"
             rel="noreferrer"
-            className="hidden rounded-full border border-brand-200 bg-white px-4 py-2 text-sm font-semibold text-brand-800 transition hover:-translate-y-0.5 hover:border-pink hover:text-pink md:inline-flex"
+            className="hidden rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-semibold text-brand-900 transition hover:-translate-y-0.5 hover:border-pink hover:text-pink md:inline-flex"
           >
             Instagram
           </a>
@@ -63,37 +63,37 @@ function Navbar() {
         <div className="flex gap-2 overflow-x-auto">
           <a
             href="#sobre"
-            className="whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-medium text-brand-800"
+            className="whitespace-nowrap rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-medium text-brand-900"
           >
             Sobre
           </a>
           <a
             href="#servicos"
-            className="whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-medium text-brand-800"
+            className="whitespace-nowrap rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-medium text-brand-900"
           >
             Serviços
           </a>
           <a
             href="#extras"
-            className="whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-medium text-brand-800"
+            className="whitespace-nowrap rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-medium text-brand-900"
           >
             Extras
           </a>
           <a
             href="#animais"
-            className="whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-medium text-brand-800"
+            className="whitespace-nowrap rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-medium text-brand-900"
           >
             Animais
           </a>
           <a
             href="#galeria"
-            className="whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-medium text-brand-800"
+            className="whitespace-nowrap rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-medium text-brand-900"
           >
             Galeria
           </a>
           <a
             href="#contato"
-            className="whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-medium text-brand-800"
+            className="whitespace-nowrap rounded-full border border-brand-800/20 bg-brand-50/45 px-4 py-2 text-sm font-medium text-brand-900"
           >
             Contato
           </a>

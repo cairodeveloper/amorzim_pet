@@ -10,9 +10,10 @@ body {
   @apply bg-sand text-brand-950 antialiased;
   font-family: 'Poppins', sans-serif;
   background-image:
-    radial-gradient(circle at top left, rgba(254, 191, 0, 0.1), transparent 24%),
-    radial-gradient(circle at bottom right, rgba(67, 178, 171, 0.08), transparent 28%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 253, 248, 0.98));
+    radial-gradient(circle at top left, rgba(254, 191, 0, 0.24), transparent 19%),
+    radial-gradient(circle at top right, rgba(237, 29, 127, 0.18), transparent 21%),
+    radial-gradient(circle at bottom left, rgba(11, 68, 66, 0.22), transparent 23%),
+    linear-gradient(180deg, rgba(51, 199, 191, 0.99), rgba(27, 179, 172, 0.98));
 }
 
 ::selection {
@@ -24,11 +25,11 @@ body {
 }
 
 .glass-card {
-  @apply border border-white/60 bg-white/75 shadow-soft backdrop-blur-xl;
+  @apply border border-brand-800/10 bg-brand-50/30 shadow-soft backdrop-blur-xl;
 }
 
 .tint-card {
-  @apply border border-white/60 bg-white/80 shadow-soft backdrop-blur-xl;
+  @apply border border-brand-800/10 bg-brand-50/30 shadow-soft backdrop-blur-xl;
 }
 
 .section-title {
@@ -43,18 +44,30 @@ body {
   @apply text-sm font-semibold uppercase tracking-[0.28em] text-brand-600;
 }
 
+.photo-shell {
+  @apply overflow-hidden border border-brand-800/10 bg-brand-100/30 shadow-soft backdrop-blur-xl;
+}
+
+.photo-frame {
+  @apply overflow-hidden rounded-2xl border border-brand-800/10 bg-brand-50/30;
+}
+
+.photo-image {
+  @apply h-full w-full object-cover object-center;
+}
+
 .soft-grid {
   background-image:
-    linear-gradient(rgba(146, 112, 186, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(146, 112, 186, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(15, 111, 107, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 111, 107, 0.08) 1px, transparent 1px);
   background-size: 26px 26px;
 }
 
 .section-wash {
   background:
-    radial-gradient(circle at top left, rgba(254, 191, 0, 0.12), transparent 22%),
-    radial-gradient(circle at bottom right, rgba(67, 178, 171, 0.1), transparent 28%),
-    rgba(255, 255, 255, 0.72);
+    radial-gradient(circle at top left, rgba(254, 191, 0, 0.2), transparent 18%),
+    radial-gradient(circle at bottom right, rgba(11, 68, 66, 0.2), transparent 24%),
+    rgba(27, 179, 172, 0.34);
 }
 
 .reveal {

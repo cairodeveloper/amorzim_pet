@@ -7,7 +7,7 @@ function VideoShowcase() {
   return (
     <section className="py-20">
       <div className="container-shell">
-        <div className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-brand-900 via-brand-800 to-lavender p-6 text-white shadow-soft lg:p-8">
+        <div className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-brand-950 via-brand-900 to-brand-700 p-6 text-white shadow-soft lg:p-8">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div className="reveal" data-reveal>
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">

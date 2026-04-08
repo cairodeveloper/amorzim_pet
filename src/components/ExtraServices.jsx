@@ -8,12 +8,8 @@ function ExtraServices() {
     <section id="extras" className="py-20">
       <div className="container-shell">
         <div className="grid gap-8 overflow-hidden rounded-[2.4rem] border border-brand-100 bg-gradient-to-br from-white via-brand-50/60 to-peach p-6 shadow-soft lg:grid-cols-[0.92fr_1.08fr] lg:p-8">
-          <div className="reveal overflow-hidden rounded-[1.8rem]" data-reveal>
-            <img
-              src={extrasMedia.image}
-              alt={extrasMedia.alt}
-              className="h-full min-h-[340px] w-full object-cover"
-            />
+          <div className="reveal photo-frame min-h-[340px]" data-reveal>
+            <img src={extrasMedia.image} alt={extrasMedia.alt} className="photo-image min-h-[340px]" />
           </div>
 
           <div className="reveal" data-reveal>

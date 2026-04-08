@@ -13,9 +13,9 @@ import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden bg-transparent">
       <Navbar />
-      <main>
+      <main className="bg-gradient-to-b from-brand-500/10 via-brand-600/12 to-brand-700/14">
         <Hero />
         <About />
         <Services />

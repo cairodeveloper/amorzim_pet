@@ -16,21 +16,21 @@ function Gallery() {
           </p>
         </div>
 
-        <div className="mt-12 grid auto-rows-[210px] gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {galleryImages.map((image, index) => (
             <figure
               key={`${image.src}-${index}`}
-              className={`reveal group relative overflow-hidden rounded-[2rem] border border-white/60 shadow-soft ${
-                index === 0 || index === 4 || index === 8 ? 'sm:row-span-2' : ''
-              }`}
+              className="reveal group relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/80 shadow-soft"
               data-reveal
               style={{ transitionDelay: `${index * 120}ms` }}
             >
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
-              />
+              <div className="h-[280px] overflow-hidden bg-brand-50">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="h-full w-full object-cover object-center transition duration-500 group-hover:scale-110"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-brand-950/68 via-brand-950/8 to-transparent opacity-70 transition duration-300 group-hover:opacity-95" />
               <figcaption className="absolute inset-x-0 bottom-0 translate-y-2 p-5 text-sm font-medium text-white transition duration-300 group-hover:translate-y-0">
                 {image.alt}

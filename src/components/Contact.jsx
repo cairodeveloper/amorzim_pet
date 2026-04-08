@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section id="contato" className="pb-10 pt-20">
       <div className="container-shell">
-        <div className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-brand-100 via-white to-peach p-8 shadow-soft sm:p-10">
+        <div className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-brand-300/80 via-brand-200/45 to-peach p-8 shadow-soft sm:p-10">
           <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
             <div className="reveal" data-reveal>
               <p className="section-kicker">Contato</p>

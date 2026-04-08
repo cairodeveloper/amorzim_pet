@@ -33,12 +33,14 @@ function Animals() {
 
           <div className="reveal relative" data-reveal>
             <div className="absolute -left-4 bottom-12 h-28 w-28 rounded-full bg-aqua/20 blur-3xl" />
-            <div className="overflow-hidden rounded-[2.2rem] border border-white/60 bg-white/70 p-4 shadow-soft backdrop-blur-xl">
-              <img
-                src={animalsSection.image}
-                alt={animalsSection.alt}
-                className="h-[460px] w-full rounded-[1.8rem] object-cover"
-              />
+            <div className="photo-shell rounded-[1.25rem] p-4">
+              <div className="photo-frame h-[460px]">
+                <img
+                  src={animalsSection.image}
+                  alt={animalsSection.alt}
+                  className="photo-image h-[460px]"
+                />
+              </div>
               <div className="absolute bottom-8 right-8 rounded-[1.4rem] bg-white/92 px-5 py-4 shadow-soft">
                 <p className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-600">
                   Caes e gatos

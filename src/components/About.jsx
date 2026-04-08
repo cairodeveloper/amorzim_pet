@@ -37,12 +37,10 @@ function About() {
 
           <div className="reveal relative" data-reveal>
             <div className="soft-grid absolute inset-6 rounded-[2rem] opacity-60" />
-            <div className="relative overflow-hidden rounded-[2.2rem] border border-white/70 bg-white/70 p-4 shadow-soft backdrop-blur-xl">
-              <img
-                src={aboutMedia.image}
-                alt={aboutMedia.alt}
-                className="h-[520px] w-full rounded-[1.8rem] object-cover"
-              />
+            <div className="photo-shell relative rounded-[1.25rem] p-4">
+              <div className="photo-frame h-[520px]">
+                <img src={aboutMedia.image} alt={aboutMedia.alt} className="photo-image h-[520px]" />
+              </div>
               <div className="absolute bottom-10 left-10 max-w-xs rounded-[1.5rem] bg-white/90 p-5 shadow-soft">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-brand-600">
                   Experiencia tranquila
