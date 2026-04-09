@@ -6,7 +6,7 @@ function Gallery() {
 
   return (
     <section id="galeria" className="py-20">
-      <div className="container-shell">
+      <div className="mx-auto w-full max-w-[104rem] px-4 sm:px-6 lg:px-8">
         <div className="reveal text-center" data-reveal>
           <p className="section-kicker">Galeria</p>
           <h2 className="section-title mt-4">Pets atendidos com carinho e muito capricho</h2>
@@ -24,7 +24,7 @@ function Gallery() {
               data-reveal
               style={{ transitionDelay: `${index * 120}ms` }}
             >
-              <div className="h-[280px] overflow-hidden bg-brand-50">
+              <div className="aspect-[4/5] overflow-hidden bg-brand-50">
                 <img
                   src={image.src}
                   alt={image.alt}

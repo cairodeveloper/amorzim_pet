@@ -85,10 +85,10 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="grid gap-4 sm:grid-cols-[1.05fr_0.95fr]">
-                <div className="photo-frame relative min-h-[400px]">
+              <div className="grid gap-4 sm:grid-cols-[0.95fr_0.85fr]">
+                <div className="photo-frame relative min-h-[520px]">
                   <img
-                    className="photo-image min-h-[400px]"
+                    className="photo-image min-h-[520px]"
                     src={heroContent.featuredImages[0].src}
                     alt={heroContent.featuredImages[0].alt}
                     style={{ objectPosition: heroContent.featuredImages[0].position }}
@@ -98,12 +98,12 @@ function Hero() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <div className="photo-frame h-52">
+                  <div className="photo-frame h-72">
                     <img
-                      className="photo-image h-52"
-                      src={heroContent.featuredImages[1].src}
-                      alt={heroContent.featuredImages[1].alt}
-                      style={{ objectPosition: heroContent.featuredImages[1].position }}
+                      className="photo-image h-72"
+                      src={heroContent.featuredImages[2].src}
+                      alt={heroContent.featuredImages[2].alt}
+                      style={{ objectPosition: heroContent.featuredImages[2].position }}
                     />
                   </div>
                   <div className="animate-float rounded-[1.5rem] bg-brand-700 p-5 text-white shadow-glow">
@@ -113,12 +113,12 @@ function Hero() {
                       Um cuidado que respeita sinais, pausas e o bem-estar do pet em cada etapa.
                     </p>
                   </div>
-                  <div className="photo-frame h-65">
+                  <div className="photo-frame h-80">
                     <img
-                      className="photo-image h-65"
-                      src={heroContent.featuredImages[2].src}
-                      alt={heroContent.featuredImages[2].alt}
-                      style={{ objectPosition: heroContent.featuredImages[2].position }}
+                      className="photo-image h-80"
+                      src={heroContent.featuredImages[1].src}
+                      alt={heroContent.featuredImages[1].alt}
+                      style={{ objectPosition: heroContent.featuredImages[1].position }}
                     />
                   </div>
                 </div>
