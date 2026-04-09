@@ -9,11 +9,6 @@ html {
 body {
   @apply bg-sand text-brand-950 antialiased;
   font-family: 'Poppins', sans-serif;
-  background-image:
-    radial-gradient(circle at top left, rgba(254, 191, 0, 0.24), transparent 19%),
-    radial-gradient(circle at top right, rgba(237, 29, 127, 0.18), transparent 21%),
-    radial-gradient(circle at bottom left, rgba(11, 68, 66, 0.22), transparent 23%),
-    linear-gradient(180deg, rgba(51, 199, 191, 0.99), rgba(27, 179, 172, 0.98));
 }
 
 ::selection {

@@ -31,10 +31,6 @@ function Gallery() {
                   className="h-full w-full object-cover object-center transition duration-500 group-hover:scale-110"
                 />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-950/68 via-brand-950/8 to-transparent opacity-70 transition duration-300 group-hover:opacity-95" />
-              <figcaption className="absolute inset-x-0 bottom-0 translate-y-2 p-5 text-sm font-medium text-white transition duration-300 group-hover:translate-y-0">
-                {image.alt}
-              </figcaption>
             </figure>
           ))}
         </div>
