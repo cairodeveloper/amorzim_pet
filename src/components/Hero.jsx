@@ -98,12 +98,11 @@ function Hero() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <div className="photo-frame h-72">
+                  <div className="photo-frame h-[21rem] sm:h-72">
                     <img
-                      className="photo-image h-72"
+                      className="photo-image h-[21rem] object-[center_22%] sm:h-72 sm:object-[center_24%]"
                       src={heroContent.featuredImages[2].src}
                       alt={heroContent.featuredImages[2].alt}
-                      style={{ objectPosition: heroContent.featuredImages[2].position }}
                     />
                   </div>
                   <div className="animate-float rounded-[1.5rem] bg-brand-700 p-5 text-white shadow-glow">
