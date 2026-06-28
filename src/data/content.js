@@ -192,7 +192,7 @@ export const testimonials = [
 ]
 
 export const contactInfo = [
-  { label: 'Telefone', value: '+55 31 98117-0316' },
+  { label: 'Telefone', value: '+55 31 98239-8915' },
   { label: 'Endereço', value: 'Rua das Canárias 130, Santa Branca' },
   { label: 'Instagram', value: '@amorzim_pet' },
 ]
