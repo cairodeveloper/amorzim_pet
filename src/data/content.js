@@ -12,7 +12,7 @@ import galleryImage4 from '../assets/images/pet9.jpeg'
 import galleryImage5 from '../assets/images/pet10.jpeg'
 import presentationVideo from '../assets/videos/videopetshop.mp4'
 
-export const whatsappLink = 'https://wa.me/5531981170316'
+export const whatsappLink = 'https://wa.me/5531982398915'
 export const instagramLink = 'https://www.instagram.com/amorzim_pet/'
 
 export const brandAssets = {
